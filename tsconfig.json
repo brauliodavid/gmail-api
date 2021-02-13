@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "noImplicitReturns": true,
+      "noImplicitAny": false,
+      "strict": true,
+      "strictNullChecks": false,
+      "strictFunctionTypes": false,
+      "noImplicitThis": false,
+      "alwaysStrict": false,
+      "outDir": "dist",
+      "sourceMap": true,
+      "noUnusedLocals": false,
+      "target": "es2017",
+      "resolveJsonModule": true,
+    },
+    "compileOnSave": true,
+    "include": [
+      "src/**/*",
+      "src/*.json"
+    ]
+}
